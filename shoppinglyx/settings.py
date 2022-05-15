@@ -25,7 +25,7 @@ SECRET_KEY = 'm7757tfa4t=!#52_m1g6n8h(5_5-2@r8q$_3js367+0!4$d%-*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jahnavi11.azurewebsites.net']
 
 
 # Application definition
@@ -132,7 +132,7 @@ STATICFILES_FINDERS = (
   'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR +'/ media'
 LOGIN_REDIRECT_URL = '/profile/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
